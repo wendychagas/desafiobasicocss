@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-image: url(./assets/backgorund.png);
+	background-repeat: no-repeat;
+	font-family: Papyrus;
+}
+
+h1 {
+	font-size: 30pt;
+}
+
+h1:hover {
+	text-shadow: 2px 2px 2px black;
+}
+
+li {
+	font-size: 20pt;
+	/*border: 2px solid black;*/
+	list-style-position: inside;
+	margin: 10px;
+
+}
+
+.container {
+	margin: 50px;
+	width: 400px;
+	height: 200px;
+	/*border: 2px solid black;*/
+}
+
+#instagram {
+	list-style-image: url(./assets/Insta.png);
+}
+
+#twitter {
+	list-style-image: url(./assets/twitter.png);
+}
+
+#youtube {
+	list-style-image: url(./assets/youtube.png);
+}
+
+
+.botao {
+	text-decoration: none;
+	color: black;
+}
+
+.botao:hover {
+	font-style: italic;
+	text-shadow: 2px 2px 1px black;
+}
+
+.botao:visited {
+	color: black;
+}
